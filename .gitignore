@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Lock files (si quieres versionarlos, elimina estas líneas)
+bun.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bun-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Build output (por si agregas build luego)
+dist/
+coverage/
+
+# TypeScript
+*.tsbuildinfo
