@@ -1,15 +1,16 @@
 {
   "name": "@panxo/eslint-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Opinionated ESLint config for TypeScript + Next.js",
   "type": "module",
-  "main": "eslint.config.mjs",
-  "exports": {
-    ".": "./eslint.config.mjs"
-  },
+  "main": "./src/index.js",
+  "exports": "./src/index.js",
   "files": [
-    "eslint.config.mjs"
+    "src"
   ],
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "peerDependencies": {
     "eslint": "^9.0.0",
     "typescript": "^5.0.0",

@@ -1,3 +1,20 @@
+# eslint-config-panxo
+
+Opinionated ESLint flat config for TypeScript projects.
+
+## Installation
+```
+pnpm add -D eslint typescript typescript-eslint eslint-config-prettier eslint-config-panxo
+```
+
+## Usage (eslint.config.js)
+
+```
+import panxo from "eslint-config-panxo";
+
+export default panxo;
+```
+
 ### ✅ Correcto
 
 ```
